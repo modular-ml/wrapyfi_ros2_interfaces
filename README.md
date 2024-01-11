@@ -3,7 +3,7 @@
 **WARNING**: These instructions are located in 
 [https://github.com/modular-ml/wrapyfi_ros2_interaces](https://github.com/modular-ml/wrapyfi_ros2_interaces)
 
-To run the [Wrapyfi](https://github.com/fabawi/wrapfi) ROS 2 services and transmit audio messages, you need to compile the ROS 2 interfaces. 
+To run the [Wrapyfi](https://github.com/fabawi/wrapyfi) ROS 2 services and transmit audio messages, you need to compile the ROS 2 interfaces. 
 ROS 2 must already be installed on your system, with all its build dependencies. 
 You can find the installation instructions [here](https://docs.ros.org/en/humble/Installation.html) 
 or install using [Robostack](https://robostack.github.io/GettingStarted.html).
