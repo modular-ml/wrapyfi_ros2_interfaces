@@ -127,5 +127,5 @@ or install using [Robostack](https://robostack.github.io/GettingStarted.html).
     
     ```
    
-     Run your Wrapyfi enabled script from the same terminal. Now you can use the REQ/REP pattern (server/client) in Wrapyfi, and transmit ROS 2 audio messages.
+     Run your Wrapyfi enabled script from the same terminal. Now you can use the REQ/REP pattern (server/client) in Wrapyfi [\[example\]](https://wrapyfi.readthedocs.io/en/latest/examples/examples.communication_patterns.html#module-examples.communication_patterns.request_reply_example), and transmit ROS 2 audio messages [\[example\]](https://wrapyfi.readthedocs.io/en/latest/examples/examples.sensors.html#module-examples.sensors.cam_mic).
      
