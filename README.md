@@ -1,4 +1,4 @@
-# Compiling ROS 2 interfaces
+# Wrapyfi ROS 2 interfaces
 
 **WARNING**: These instructions are located in 
 [https://github.com/modular-ml/wrapyfi_ros2_interfaces](https://github.com/modular-ml/wrapyfi_ros2_interfaces)
@@ -12,6 +12,22 @@ or install using [Robostack](https://robostack.github.io/GettingStarted.html).
 
 - ROS 2 Galactic/Humble
 - Python 3.6
+
+## Installation
+
+We recommend [compiling](#compiling) the ROS 2 interfaces rather than installing them. However, if ROS 2 was installed locally (**not** within mamba/micromamba), 
+Then the Wrapyfi interfaces can be installed directly using APT ![ROS Package Index](https://img.shields.io/ros/v/humble/wrapyfi_ros2_interfaces)
+
+
+**APT (local Humble only)** 
+```bash
+source /opt/ros/humble/setup.bash
+sudo apt update
+sudo apt install ros-humble-wrapyfi-ros2-interfaces
+# test package: should return the service message types for ROS 2 Native objects
+ros2 interface show wrapyfi_ros2_interfaces/srv/ROS2NativeObjectService
+
+```
 
 ## Compiling
 
