@@ -16,7 +16,7 @@ or install using [Robostack](https://robostack.github.io/GettingStarted.html).
 ## Installation
 
 We recommend [compiling](#compiling) the Wrapyfi ROS 2 interfaces rather than installing them. However, if ROS 2 was installed locally (**not** within mamba/micromamba), 
-Then the Wrapyfi interfaces can be installed directly using APT ![ROS Package Index](https://img.shields.io/ros/v/humble/wrapyfi_ros2_interfaces)
+Then the Wrapyfi interfaces can be installed directly using APT [![ROS Package Index](https://img.shields.io/ros/v/humble/wrapyfi_ros2_interfaces)](https://index.ros.org/p/wrapyfi_ros2_interfaces/#humble)
 
 
 **APT (local Humble only)** 
